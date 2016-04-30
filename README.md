@@ -13,7 +13,7 @@
 ```python
 from api import privateAPI
 
-api = privateAPI(username = "potekhinthebest", password = "potekhin")
+api = privateAPI(username = "username", password = "password")
 
 # Basic info about user
 response = api.userInfo(user_id = "427553890")
